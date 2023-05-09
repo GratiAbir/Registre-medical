@@ -1,0 +1,76 @@
+.sidebar{
+    flex: 1;
+    font-family: Cantarell ,Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1rem;
+    margin-left: 1rem ;
+    margin-top: 1rem ;
+    background-color: rgb(233, 230, 230); 
+
+}
+.top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.top-section1{
+    width: 50px;
+    padding-left: 10px;
+    display : inline-block;
+    
+}
+.top-section2{
+    color: rgb(3, 3, 122);
+    font-size: 1em;
+    margin-left: 5px;
+    display : inline-block;
+    vertical-align : top;
+} 
+.bars{
+    display: flex;
+    font-size: 20px;
+    margin-left: 80000px;
+    color: rgb(3, 3, 122);
+}
+main{
+    width: 100%;
+}
+.linkk{
+    display: flex;
+    padding: 15px 20px;
+    gap:15px;
+    transition:all 0.5s;
+    color: rgb(3, 3, 122);
+    text-decoration: none;
+}
+.linkk:hover{
+    background-color: #f6f3fa;
+    transition:all 0.5s;
+}
+.active{
+    background-color: #f6f3fa; 
+}
+.icon, .link-text{
+    font-size: 13px;
+}
+.section-bottom{
+    display: flex;
+    color: rgb(3, 3, 122);
+}
+.phone-text{
+    line-height: 2px;
+}
+#text1{
+    color: rgb(224, 16, 16);
+    font-size:10px;
+    margin-right:25px
+}
+#text2{
+    font-size:7.5px;
+    margin-left:10px;
+}
+.phone{
+    font-size: 20px; 
+    padding-left: 20px;
+    padding-top: 7px;
+}

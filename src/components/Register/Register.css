@@ -1,0 +1,96 @@
+root{
+    --bleu: #0f0fbe;
+    ;
+}
+
+.main-register{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f0fbe;
+    max-width: 100%;
+    text-align: center;
+}
+.register-contain{
+    height: 75vh;
+    width: 30%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),rgba(236,236,236,0.4));
+    border-radius: 1rem;
+    margin: 5rem auto;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+}
+.img-class{
+    height: 5rem;
+}
+#img-id{
+    height: 100%;
+    object-fit: cover;
+}
+.header{
+    color : gray;
+}
+input{
+    display: block;
+    border: none;
+    height: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 1rem;
+    font-size: small;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+
+}
+label{
+    display: block;
+    text-align: left;
+    width:78%;    
+    margin: auto;
+    font-size: small;
+    color:gray;
+    margin-bottom: 0.5rem;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+input:hover{
+    outline: 0.5px solid gray;
+    box-shadow: 2px 2px 9px -2px gray;
+}
+#log-butt{
+    width: 80%;
+    background: #0f0fbe;
+    color:white;
+    border:none;
+    cursor: pointer;
+    padding:0.5rem 1rem;
+    transition: all 0.2s ease;
+
+}
+button:hover{
+    box-shadow: 4px 3px 9px -1px black;
+    transform: translateY(-5px);
+}
+.link{
+    text-decoration: none;
+    color:#0f0fbe;
+    transition: all 0.3s ease;   
+     
+}
+h5{
+    justify-content: center;
+    color:gray;
+}
+.footer{
+    font-size: 12px;
+}
+body{
+    margin:0;
+    padding: 0;
+}

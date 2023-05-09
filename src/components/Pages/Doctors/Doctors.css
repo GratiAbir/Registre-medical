@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+}
+.main-doctors{
+    display: flex;
+}
+.doctors-contain{
+    flex:5.5;
+}
+#D{
+    text-align:left;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+
+}
+.Doc{
+    overflow-y: scroll;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:left;
+    height: 450px;
+    cursor: pointer;
+}

@@ -1,0 +1,138 @@
+body{
+    background-color: whitesmoke;
+}
+.main-settings{
+    display: flex;
+}
+.settings-contain{
+    flex:5.5;
+}
+#S{
+    text-align:left;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    margin-left: 10px;
+    padding: 10px;
+}
+.Set{
+    border: 3px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:left;
+    height: 450px;
+    
+    
+}
+.Sett{
+    display: flex;
+}
+.LeftSet{
+    flex:1;
+}
+.RightSet{
+    flex:2;
+}
+#N{
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+    color: #0f0fbe;
+}
+#lab{
+    display: block;
+    text-align: left;
+    width:78%;    
+    margin: auto;
+    font-size: small;
+    color:gray;
+    margin-bottom: 0.2rem;
+    font-size: 12px;
+    margin-left: 23px;
+}
+.f{
+    display: block;
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 1rem;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+    font-size: 12px;
+}
+.l{
+    display: block;
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 1rem;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+    font-size: 12px;
+}
+.e{
+    display: block;
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 1rem;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+    font-size: 12px;
+}
+.t{
+    display: block;
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 1rem;
+    color:gray;
+    transition: all 0.1s ease-in-out;
+    font-size: 12px;
+}
+#butt{
+    width: 53%;
+    background: #0f0fbe;
+    color:white;
+    border:none;
+    cursor: pointer;
+    padding:0.5rem 1rem;
+    transition: all 0.2s ease;
+    border-radius: 1rem;
+    font-size: 12px;
+    margin-left: 32px;
+    margin-top: 1.5rem;
+    margin-bottom: 18px;
+}
+button:hover{
+    box-shadow: 4px 3px 9px -1px black;
+    transform: translateY(-5px);
+}
+.FooterSett{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #0f0fbe;
+}
+#sec{
+    font-size: 12px;
+}
+.LeftSet{
+    margin: 20px;
+    margin-top: 100px;
+    
+}
+.image-file{
+    margin-top:50px;
+    margin-right: 50px;
+}

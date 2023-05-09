@@ -1,0 +1,25 @@
+body{
+    background-color: whitesmoke;
+}
+.main-pathology{
+    display: flex;
+}
+.pathology-contain{
+    flex:5.5;
+}
+#P{
+    text-align:left;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.Path{
+    height: 450px;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}

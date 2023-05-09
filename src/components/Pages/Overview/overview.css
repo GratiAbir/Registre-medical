@@ -1,0 +1,71 @@
+body{
+    background-color: whitesmoke;
+}
+.main-overview{
+    display: flex;
+}
+.overview-contain{
+    flex:5.5;
+}
+#O{
+    text-align:left;
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.Over{
+    /* border: 3px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;*/
+    cursor: pointer;
+    height: 450px;
+    padding: 20px;
+}
+.overviewTop{
+    display: flex;
+}
+.overviewTop1{
+    flex:0.5;
+    display: flex;
+    border: 3px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    color: rgb(3, 3, 122);
+    background-color: rgb(233, 230, 230);
+    margin-right: 100px;
+    margin-left: 75px;
+    
+}
+.overviewTop2{
+    flex:0.5;
+    display: flex;
+    border: 3px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    color: rgb(3, 3, 122);
+    background-color: rgb(233, 230, 230);
+    margin-right: 100px;
+}
+.overviewTop3{
+    flex:0.5;
+    display: flex;
+    border: 3px solid rgb(233, 230, 230);
+    border-radius: 1rem;
+    color: rgb(3, 3, 122);
+    background-color: rgb(233, 230, 230);
+    margin-right: 100px;
+}
+#overIcon{
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+  
+
+

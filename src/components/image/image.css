@@ -1,0 +1,17 @@
+#butt-file{
+    border-radius: 50%;
+    border: 3px solid #0f0fbe;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    color:#0f0fbe;
+    margin-left: 100px;
+    margin-top:-20px
+}
+#icon-file{
+    font-size: 20px
+}
+#butt-file:hover{
+    box-shadow: 4px 3px 9px -1px gray;
+    transform: translateY(-5px);
+}
